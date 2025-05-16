@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ygv8aakvwp2k"
-path="res://.godot/imported/End (Idle).png-387af11c9537f00eab43f14e3ccc1c3d.ctex"
+uid="uid://8cgl28pht3v3"
+path="res://.godot/imported/Cherries.png-aee350744ca2257ebdd732b832014988.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://End (Idle).png"
-dest_files=["res://.godot/imported/End (Idle).png-387af11c9537f00eab43f14e3ccc1c3d.ctex"]
+source_file="res://Images/Cherries.png"
+dest_files=["res://.godot/imported/Cherries.png-aee350744ca2257ebdd732b832014988.ctex"]
 
 [params]
 

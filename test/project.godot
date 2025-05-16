@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Test"
-run/main_scene="uid://1wfu4acepgwu"
+run/main_scene="uid://ba715ptmvtwxj"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Images/icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [input]
 
@@ -40,3 +45,4 @@ moveRight={
 [rendering]
 
 renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0.154876, 0.154876, 0.154876, 1)
