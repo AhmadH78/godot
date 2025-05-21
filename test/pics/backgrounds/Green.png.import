@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8cgl28pht3v3"
-path="res://.godot/imported/Cherries.png-e71be6149781b6379cb0a20bba7415c5.ctex"
+uid="uid://bn7wi7gr2cklc"
+path="res://.godot/imported/Green.png-32eb4280bba2dfd7b2fd74ca82b5a735.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cherries.png"
-dest_files=["res://.godot/imported/Cherries.png-e71be6149781b6379cb0a20bba7415c5.ctex"]
+source_file="res://pics/backgrounds/Green.png"
+dest_files=["res://.godot/imported/Green.png-32eb4280bba2dfd7b2fd74ca82b5a735.ctex"]
 
 [params]
 

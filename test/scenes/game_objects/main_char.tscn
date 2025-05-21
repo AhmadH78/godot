@@ -1,8 +1,8 @@
 [gd_scene load_steps=29 format=3 uid="uid://338dargrsab"]
 
-[ext_resource type="Texture2D" uid="uid://c07fkl8cowo6g" path="res://Jump (32x32).png" id="1_1nwb3"]
-[ext_resource type="Texture2D" uid="uid://b8wv78ldl2rko" path="res://Idle (32x32).png" id="1_tywsx"]
-[ext_resource type="Texture2D" uid="uid://iro5ywy4nlxn" path="res://Run (32x32).png" id="3_sgwd1"]
+[ext_resource type="Texture2D" uid="uid://c07fkl8cowo6g" path="res://pics/characters/FrogJump.png" id="1_1nwb3"]
+[ext_resource type="Texture2D" uid="uid://gy158gg7lrev" path="res://pics/characters/FrogIdle.png" id="1_tywsx"]
+[ext_resource type="Texture2D" uid="uid://iro5ywy4nlxn" path="res://pics/characters/FrogRun.png" id="3_sgwd1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fpbhi"]
 atlas = ExtResource("1_tywsx")
@@ -204,3 +204,5 @@ autoplay = "default"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1.33333, 1.66666)
 shape = SubResource("CapsuleShape2D_1nwb3")
+
+[node name="Node" type="Node" parent="."]

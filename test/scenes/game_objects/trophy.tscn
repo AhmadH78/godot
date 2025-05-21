@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dh7bcwtplxf8v"]
+
+[ext_resource type="Script" uid="uid://cwtv1h8p1rad2" path="res://scenes/game_objects/trophy.gd" id="1_dhcmp"]
+[ext_resource type="Texture2D" uid="uid://ygv8aakvwp2k" path="res://pics/game_elements/End (Idle).png" id="1_nxsgq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dhcmp"]
+size = Vector2(45, 44)
+
+[node name="Trophy" type="Area2D"]
+scale = Vector2(-1.54701, 1.96745)
+script = ExtResource("1_dhcmp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_nxsgq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 11)
+shape = SubResource("RectangleShape2D_dhcmp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

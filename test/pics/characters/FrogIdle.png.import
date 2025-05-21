@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ygv8aakvwp2k"
-path="res://.godot/imported/End (Idle).png-387af11c9537f00eab43f14e3ccc1c3d.ctex"
+uid="uid://gy158gg7lrev"
+path="res://.godot/imported/FrogIdle.png-acfea6b615a274b293c83bfcfc2a766c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://End (Idle).png"
-dest_files=["res://.godot/imported/End (Idle).png-387af11c9537f00eab43f14e3ccc1c3d.ctex"]
+source_file="res://pics/characters/FrogIdle.png"
+dest_files=["res://.godot/imported/FrogIdle.png-acfea6b615a274b293c83bfcfc2a766c.ctex"]
 
 [params]
 
